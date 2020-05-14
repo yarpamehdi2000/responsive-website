@@ -1,0 +1,368 @@
+/*
+=============
+GLOBAL STYLE
+=============
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+   font-size: 1.5em;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+}
+/*
+==========
+Hero Section
+==========
+*/
+.hero{
+    background: linear-gradient(to bottom right,#2196f3,#009688);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+/*
+==========
+Hero Section
+==========
+*/
+.menu{
+    width: 100%;
+    height: 40px;
+    background: #ffff00; 
+}
+.menu ul{
+    text-align: center;
+    }
+.menu ul li{
+    list-style: none;
+    display: inline;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.menu ul li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  /*
+==========
+services Section
+==========
+*/
+.Services{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.col-wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.services-col{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.services-col img{
+      width: 80px;
+      max-width: 100%;
+}
+.col-wrapper::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.services-content{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+} 
+ /*
+==========
+about us Section
+==========
+*/
+.aboutus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(img/bg.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+.about-content{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.10);
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+.about-btn{
+    background-color: rgba(0, 0, 0, 0.01);
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    border: none;
+    outline: solid white;
+    color: #fff;
+    cursor: pointer;
+}
+ /*
+==========
+Team Section
+==========
+*/
+.team{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    
+}
+.team-wrapper{
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+}
+.col-team{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+.col-team img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+.tcol{
+    max-width: 200px;
+    max-height: 170px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+.team-wrapper::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+ /*
+==========
+contact Section
+==========
+*/
+.contact{
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+.cta{
+    width: 100%;
+    background-color: yellow;
+    padding: 30px 5px 30px 5px;
+    
+}
+.cta-col{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    }
+.cta-col h3{
+    display: inline;
+}
+.cta::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+/*
+=================
+contact manin
+=================
+*/
+.contactinfo{
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+}
+.contactinfo::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contactinfo-col1{
+    padding: 30px 5px 30px 5px;
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+.contactinfo-col2{
+    width: 65%;
+    float: left;
+    padding: 30px 5px 30px 5px;
+    padding-right: 10%;
+}
+.social-icon{
+    padding: 15px;
+    border: 1px dotted black;
+    margin: 5px;
+}
+.fb{
+    background-color: #3a589b;
+    color: #fff;
+}
+.gp{
+    background-color:#d6492f;
+    color: #fff;
+}.tw{
+    background-color: #32ccfe;
+    color: #fff;
+}.ln{
+    background-color: #007bb6;
+    color: #fff;
+}
+/*
+=================
+form style
+=================
+*/
+.form-col{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    text-align: left;
+}
+.fname,.femail{
+    width: 100%;
+    height: 35px;
+    padding: 2px 5px 2px 5px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+   
+}
+.msg{
+    width: 100%;
+    height: 250px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    }
+.form{
+    text-align: left;
+}
+/*
+=================
+buttonstyle
+=================
+*/
+.btn{
+    background-color: yellow;
+    border: none;
+    outline:1px solid black;
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+    cursor: pointer;
+    float: left;
+    }
+/*
+=================
+footer section
+=================
+*/
+.footer{
+    width: 100%;
+    background-color: #1b181f;
+    color: #eee;
+    padding: 40px 10px 40px 10px;
+    }
+.footer h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.footer-col{
+    width: 33.33%;
+    float: left;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+}
+/*
+==============
+CSS MEDIA QURIES
+==============
+*/
+@media screen and (max-width: 500px){
+    .services-col{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .col-team{
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .cta-col{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: justify;
+            }
+            .contactinfo{
+                width: 100%;
+            }
+        
+        .contactinfo-col1{
+            width: 100%;
+                }
+        .contactinfo-col2{
+            width: 100%;
+            padding-right: 0px;
+            }
+            .form-col{
+                width: 100%;
+            }
+            .footer-col{
+                width: 100%;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+}
+.goto{
+    border: 2px solid red;
+    
+}
